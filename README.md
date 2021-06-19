@@ -28,16 +28,66 @@ Helping diabetics make better decisions.
 
 Your major work as an app developer would be hardware and software integration, building the way people would view things (with the assistance of the UI/UX designer) and ensure that data is properly displayed on the app.
 
-<br>
+## Getting Started
+
+
+- Clone and cd into frontend repository.
+
+```shell
+git clone https://github.com/Feetwings/Frontend.git
+
+cd Frontend
+```
+
+- Install dependencies.
+
+```shell
+  npm install
+```
+- Run the frontend.
+
+```shell
+npm start
+```
+
+**For working on the repository, you'll have to follow these steps:**
+
+1: Fork the repo
+
+2: Create a new branch on the forked repository. The name of the new branch should be `issue-<ISSUE NO>`.
+
+3: Clone the repository on your system.
+
+4: Work on the new branch and push the code.
+
+5: Create a PR taking `<username>` branch as the `base` branch.
+
+---
+
+## ❤️ Project Admin
+
+<table>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/aryasoni98">
+				<img src="./public/images/aryasoni.jpg" width="100px" alt="" />
+				<br /> <sub><b>Arya Soni</b></sub>
+			</a>
+			<br /> <a href="https://github.com/aryasoni98">
+		👑 Admin
+	    </a>
+		</td>
+	</tr>
+</table>
 
 ## Contributors ✨
 
 <table>
 	 <tr>
 		 <td>
-        <a href="https://github.com/Feetwings/Frontend/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=Feetwings/Frontend" />
-       </a>
+		 <a href="https://github.com/Feetwings/Frontend/graphs/contributors">
+		 <img src="https://contrib.rocks/image?repo=Feetwings/Frontend" />
+		 </a>
 		 </td>
   </tr>
 </table>
