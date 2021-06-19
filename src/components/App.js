@@ -8,20 +8,22 @@ import LandingP from "./landingP";
 // import More from "./whatmore";
 // import Faq from "./faq";
 // import Footer from "./footer";
-
+// hello
 function App() {
   return(
     <div>
-      <NavBar />
+     {/* <NavBar /> */}
       <LandingP />
-      <Special />
+      {/* <Special />
       <WMUS />
       <Work />
       <More />
       <Faq />
+      <Footer /> */}
+    </div> 
+  
       <Footer />
     </div>
-
   );
 }
 
