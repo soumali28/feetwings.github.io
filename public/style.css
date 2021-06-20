@@ -2143,6 +2143,9 @@ Startup Agency CSS
 App Landing CSS
 =================================================*/
 /* Navbar Area */
+.navbar{
+  background-color: white;
+}
 .main-navbar.app-nav {
   border-bottom: 1px solid #edf0f4;
 }
