@@ -8,7 +8,7 @@ function special(){
 
                 <div class="col-lg-6">
                     <div class="app-banner-img">
-                        <img src="http://feetwings.com/assets/images/Fibre.png" class="app-img" alt="Image" />
+                        <img src="../assets/Fibre.png" class="app-img" alt="Image" />
                         <div class="app-shapes">
                         </div>
                     </div>

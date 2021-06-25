@@ -7,7 +7,7 @@ function work(){
                 <div class="section-title">
                     <h1>How we work. . .</h1>
                 </div>
-                <img src="http://feetwings.com/assets/images/how-we-work.png" class="step-1" alt="Image" />
+                <img src="../assets/how-we-work.png" class="step-1" alt="Image" />
                 <br></br><br></br>
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">

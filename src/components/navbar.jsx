@@ -4,8 +4,8 @@ function navbar(){
     return(
         <nav class="navbar fixed-top navbar-expand-lg main-navbar app-nav">
             <div class="container">
-                <a class="navbar-brand" href="app-landing.html">
-                    <img src="http://feetwings.com/assets/images/logo_web1.png" alt="logo" />
+                <a class="navbar-brand" href="#home">
+                    <img src="../assets/logo_web.png" alt="logo" />
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -11,7 +11,7 @@ function special(){
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="easy-step-img">
-                            <img src="http://feetwings.com/assets/images/app-img/mobile-app.png" class="step-1" alt="Image" />
+                            <img src="../assets/app-img/mobile-app.png" class="step-1" alt="Image" />
                             <div class="easy-step-shape">
                             </div>
                         </div>
@@ -21,7 +21,7 @@ function special(){
                         <div class="easy-step-card left-text">
                             <div class="row align-items-center">
                                 <div class="col-lg-4 col-sm-6">
-                                    <img src="http://feetwings.com/assets/images/icons/Early%20Detection.png" width="110" />
+                                    <img src="../assets/icons/Early%20Detection.png" width="110" />
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
                                     <h5>Early Detection & prevention of Diabetic Complications</h5>
@@ -37,7 +37,7 @@ function special(){
                                     <p>Real-time and long-term data that helps reduce false positives and helps you make better lifestyle choices from the convenience of your homes.</p>
                                 </div>
                                 <div class="col-lg-4 col-sm-6">
-                                    <img src="http://feetwings.com/assets/images/icons/Remote%20Monitoring.png" width="110" />
+                                    <img src="../assets/icons/Remote%20Monitoring.png" width="110" />
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ function special(){
                         <div class="easy-step-card left-text">
                             <div class="row align-items-center">
                                 <div class="col-lg-4 col-sm-6">
-                                    <img src="http://feetwings.com/assets/images/icons/Ease%20of%20access.png" width="110" />
+                                    <img src="../assets/icons/Ease%20of%20access.png" width="110" />
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
                                     <h5>Ease of Access</h5>
@@ -60,7 +60,7 @@ function special(){
                                     <p>For the first time ever, continuous, specific and feature-rich diabetic monitoring that is extremely affordable and value-driven with plans starting as low as ₹299/month!</p>
                                 </div>
                                 <div class="col-lg-4 col-sm-6">
-                                        <img src="http://feetwings.com/assets/images/icons/Affordability.png" width="110" />
+                                        <img src="../assets/icons/Affordability.png" width="110" />
                                     </div>
                                 </div>
                             </div>
