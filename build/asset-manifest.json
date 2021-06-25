@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/feetwings.github.io/static/js/main.cdc773c7.chunk.js",
-    "main.js.map": "/feetwings.github.io/static/js/main.cdc773c7.chunk.js.map",
-    "runtime-main.js": "/feetwings.github.io/static/js/runtime-main.68768110.js",
-    "runtime-main.js.map": "/feetwings.github.io/static/js/runtime-main.68768110.js.map",
-    "static/js/2.41d51610.chunk.js": "/feetwings.github.io/static/js/2.41d51610.chunk.js",
-    "static/js/2.41d51610.chunk.js.map": "/feetwings.github.io/static/js/2.41d51610.chunk.js.map",
-    "index.html": "/feetwings.github.io/index.html",
-    "static/js/2.41d51610.chunk.js.LICENSE.txt": "/feetwings.github.io/static/js/2.41d51610.chunk.js.LICENSE.txt"
+    "main.js": "/static/js/main.cdc773c7.chunk.js",
+    "main.js.map": "/static/js/main.cdc773c7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d7f6d59.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d7f6d59.js.map",
+    "static/js/2.41d51610.chunk.js": "/static/js/2.41d51610.chunk.js",
+    "static/js/2.41d51610.chunk.js.map": "/static/js/2.41d51610.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.41d51610.chunk.js.LICENSE.txt": "/static/js/2.41d51610.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.68768110.js",
+    "static/js/runtime-main.8d7f6d59.js",
     "static/js/2.41d51610.chunk.js",
     "static/js/main.cdc773c7.chunk.js"
   ]
