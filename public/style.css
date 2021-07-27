@@ -3063,5 +3063,14 @@ App Landing CSS
 }
 /* back to top button */
 #myButton{
-  background-color: #F5F5F5;
+  background-color: transparent;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-color: black;
 }
