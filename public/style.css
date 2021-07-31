@@ -3062,15 +3062,17 @@ App Landing CSS
   }
 }
 /* back to top button */
-#myButton{
+.fas{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  color: black;
+  height:65px;
+  width:65px;
   background-color: transparent;
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  border-radius: 6px;
-  padding: 20px;
-  text-align: center;
-  cursor: pointer;
-  font-size: 15px;
-  font-color: black;
+  border:solid black 3px;
+  border-radius: 70%;
+  padding:22px;
+  font-size: 25px;
+  z-index:5;
 }
