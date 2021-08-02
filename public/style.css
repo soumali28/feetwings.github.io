@@ -3066,13 +3066,13 @@ App Landing CSS
   position:fixed;
   right:20px;
   bottom:20px;
-  color: black;
-  height:50px;
-  width:50px;
+  color: #292929b8;
+  height:42px;
+  width:42px;
   background-color: transparent;
-  border:solid black 3px;
+  border:solid #292929b8 3px;
   border-radius: 70%;
-  padding:16px;
+  padding:13.5px;
   font-size: 20px;
   z-index:1;
 }
