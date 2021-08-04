@@ -2427,12 +2427,14 @@ App Landing CSS
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #f2f1f3;
+  text-align: center;
 }
 
 .easy-step-area .easy-step-card:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
+  text-align: center;
 }
 
 .easy-step-area .easy-step-card .step-signle-card {
