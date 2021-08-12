@@ -6,7 +6,7 @@ function footer(){
                 <div class="footer-widget">
                 <div class="logo">
                   <img src="../assets/logo_web.png" alt="logo" />
-                  <p class="footer-text">lorem ipsum dolor sit amet, consecteur adipiscing elit. A vitate commodo,neqre orci, odio nunc.In vestibulum,nulla odio vuverra massa elelifend.</p>
+                  <p class="footer-text">Smart IoT based Early Warning and Management tool</p>
                 </div>
                 <div class="pages">
                   <h1 class="title">Pages</h1>
@@ -37,7 +37,7 @@ function footer(){
                 </div>
                 <div class="reach-us">
                   <h1 class="title">Reach Us</h1>
-                  <p class="footer-text">lorem ipsum dolor sit amet, consecteur adipiscing</p>
+                  <p class="footer-text">Feetwings@gmail.com</p>
                 </div>
                 <div class="backToTop">
                 <a href="#home">
