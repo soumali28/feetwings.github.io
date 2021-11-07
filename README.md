@@ -34,9 +34,9 @@ Your major work as an app developer would be hardware and software integration, 
 - Clone and cd into frontend repository.
 
 ```shell
-git clone https://github.com/Feetwings/Frontend.git
+git clone https://github.com/Feetwings/feetwings.github.io.git
 
-cd Frontend
+cd feetwings.github.io
 ```
 
 - Install dependencies.
