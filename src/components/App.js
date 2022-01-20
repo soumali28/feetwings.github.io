@@ -20,10 +20,10 @@ function App() {
       <More />
       <Faq />
       <Footer />
-    </div> 
-  
-      
+    </div>
+
   );
+
 }
 
 export default App;

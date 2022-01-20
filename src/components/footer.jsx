@@ -35,7 +35,7 @@ function footer(){
                       <li><a href="https://www.linkedin.com/company/feetwings-pvt-ltd/" target="_blank">LinkedIn</a></li>
                       <li><a href="#" target="_blank">Twitter</a></li>
                       <li><a href="#" target="_blank">Facebook</a></li>
-                      <li><a href="#" target="_blank">Instagram</a></li>
+                      <li><a href="https://www.instagram.com/feet.wings/" target="_blank">Instagram</a></li>
                     </ul>
                 </div>
 
