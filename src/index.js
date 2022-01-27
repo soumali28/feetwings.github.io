@@ -1,5 +1,5 @@
 import React from "react";
-// this is the chANGED comment
+import Footer from "./components/footer";
 import ReactDOM from "react-dom";
 import App from "./components/App";
 
