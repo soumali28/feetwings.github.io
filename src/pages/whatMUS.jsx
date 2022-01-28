@@ -1,6 +1,6 @@
 import React from "react";
 
-function special(){
+function WMUS(){
     return (
         <div id="smart" class="app-banner-area pt-100">
         <div class="container">
@@ -25,4 +25,4 @@ function special(){
     );
 }
 
-export default special;
+export default WMUS;
