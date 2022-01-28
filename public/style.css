@@ -2181,6 +2181,7 @@ App Landing CSS
 }
 
 .app-banner-area .app-bennr-text {
+  /* color:#000000; */
   position: relative;
   z-index: 1;
 }
@@ -2224,6 +2225,7 @@ App Landing CSS
 }
 
 .app-banner-area .app-bennr-text p {
+  color:#000000;
   font-size: 20px;
 }
 
