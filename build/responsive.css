@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 767px) {
     .main-navbar .navbar-brand {
       max-width: 100px;
@@ -456,6 +457,10 @@
   }
   
   @media only screen and (max-width: 575px) {
+    .app-bennr-text{
+      margin-top: -150px;
+      align-items: center;  
+    }
     .easy-step-area .easy-step-card {
       margin-bottom: 15px;
       padding-bottom: 15px;
@@ -473,6 +478,10 @@
   }
   
   @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .app-bennr-text{
+      margin-top: -200px;
+      align-items: center;  
+    }
     .app-banner-area .app-bennr-text .app-text {
       padding-left: 150px;
     }
@@ -544,6 +553,10 @@
   }
   
   @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .app-bennr-text{
+      margin-top: -200px;
+      align-items: center;  
+    }
     /* SaaS Responsive */
     .saas-banner-area .saas-banner-content h1 {
       color: #ffffff;
@@ -815,7 +828,23 @@
   }
   
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .app-bennr-text{
+      margin-top: -100px;
+      align-items: center;  
+    }
+    /* my responsive */
+    .navbar-spacing{
+      display: flex;
+      justify-content: end;
+    }
+
+
+
+
+
+
     /* Personal Area Responsive */
+    
     .personal-banner-area .personal-bennr-text span {
       font-size: 20px;
     }
@@ -880,4 +909,39 @@
       left: auto;
       right: 40px;
     }
+  }
+  @media only screen and (min-width: 1199px) {
+
+    /* my responsive */
+    .navbar-spacing{
+      display: flex;
+      justify-content: end;
+    }
+    .app-shapes{
+      justify-content: start;
+      margin-top: 30px;
+      margin-left: -15px;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    .app-shapes{
+      justify-content: center;
+     
+    }
+
+    /* my responsive */
+    .sock-reverse{
+      display: flex;
+      flex-direction: column-reverse;
+      
+    
+    }
+    
+  }
+  @media only screen and (max-width: 1199px) {
+
+    .app-bennr-text{
+      text-align: center;
+    }
+    
   }
