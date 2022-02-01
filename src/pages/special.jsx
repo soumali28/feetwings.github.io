@@ -8,10 +8,10 @@ function special(){
                     <h1>What Makes Us Special ?</h1>
                 </div>
 
-                <div class="row align-items-between ">
+                <div class="row align-items-spacearound first-step-area">
 
                     <div class="col-lg-4 mt-5">
-                        <div class="easy-step-card left-text">
+                        <div class="easy-step-card right-text">
                             <div class="row align-items-center">
                                 <div class="col-lg-4 col-sm-6">
                                     <img src="../assets/icons/Early%20Detection.png" width="110" />
@@ -23,8 +23,8 @@ function special(){
                             </div>
                         </div>
 
-                        <div class="easy-step-card right-text">
-                            <div class="row align-items-center">
+                        <div class="easy-step-card left-text ">
+                            <div class="row  flex-sm-row-reverse flex-lg-row align-items-center ">
                                 <div class="col-lg-4 col-sm-6">
                                     <img src="../assets/icons/Remote%20Monitoring.png" width="110" />
                                 </div>
@@ -47,8 +47,8 @@ function special(){
 
                         
                     <div class="col-lg-4 mt-5">
-                        <div class="easy-step-card left-text">
-                            <div class="row align-items-center">
+                        <div class="easy-step-card right-txt  " >
+                            <div class="row flex-sm-row-reverse flex-lg-row align-items-center">
                                 <div class="col-lg-8 col-sm-6">
                                     <h5>Ease of Access</h5>
                                     <p>Our smart yarn is completely machine-washable and dryable, functionally smart, but just as easy to use!</p>
@@ -58,7 +58,7 @@ function special(){
                                 </div>
                             </div>
                         </div>
-                        <div class="easy-step-card right-text">
+                        <div class="easy-step-card left-text">
                             <div class="row align-items-center">
                                 <div class="col-lg-8 col-sm-6">
                                     <h5>Affordability</h5>
@@ -66,7 +66,7 @@ function special(){
                                 </div>
                                 <div class="col-lg-4 col-sm-6">
                                         <img src="../assets/icons/Affordability.png" width="110" />
-                                    </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
