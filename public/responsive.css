@@ -963,3 +963,17 @@
       margin-bottom: 100px;
     }
   }
+
+  @media only screen and (max-width: 576px){
+    .easy-step-area .second-block{
+      flex-direction: column-reverse;
+    }
+
+    .easy-step-area .first-block .img-div{
+      margin-bottom: 20px;
+    }
+
+    .easy-step-area .second-block .img-div{
+      margin-bottom: 20px;
+    }
+  }
