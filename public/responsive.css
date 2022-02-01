@@ -825,6 +825,7 @@
     .clients-slider-two-area .clients-slider-two .slider-two-item {
       margin: 15px auto;
     }
+
   }
   
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -945,12 +946,34 @@
     }
     
   }
-
+  
   @media only screen and (max-width: 991px) {
 
     .mobile-special{
       display: none;
+
     }
   
     
+  }
+
+  
+  @media only screen and (min-width: 991px) {
+    .easy-step-card.right-txt{
+      margin-bottom: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 576px){
+    .easy-step-area .second-block{
+      flex-direction: column-reverse;
+    }
+
+    .easy-step-area .first-block .img-div{
+      margin-bottom: 20px;
+    }
+
+    .easy-step-area .second-block .img-div{
+      margin-bottom: 20px;
+    }
   }
