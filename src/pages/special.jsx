@@ -8,12 +8,12 @@ function special(){
                     <h1>What Makes Us Special ?</h1>
                 </div>
 
-                <div class="row align-items-between ">
+                <div class="row align-items-spacearound first-step-area">
 
-                    <div class="col-lg-4 mt-5  ">
-                        <div class="easy-step-card left-text ">
-                            <div class="row align-items-center rowfirst">
-                                <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 mt-5">
+                        <div class="easy-step-card right-text">
+                            <div class="row align-items-center first-block">
+                                <div class="col-lg-4 col-sm-6 img-div">
                                     <img src="../assets/icons/Early%20Detection.png" width="110" />
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
@@ -23,9 +23,9 @@ function special(){
                             </div>
                         </div>
 
-                        <div class="easy-step-card right-text">
-                            <div class="row align-items-center rowfirst">
-                                <div class="col-lg-4 col-sm-6">
+                        <div class="easy-step-card left-text ">
+                            <div class="row  flex-sm-row-reverse flex-lg-row align-items-center first-block ">
+                                <div class="col-lg-4 col-sm-6 img-div">
                                     <img src="../assets/icons/Remote%20Monitoring.png" width="110" />
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
@@ -37,36 +37,37 @@ function special(){
                     </div>
                        
 
+
                     <div class="col-lg-4 mt-n5 mobile-special">
                         <div class="easy-step-img">
                             <img src="../assets/app-img/mobile-app.png" class="step-1" alt="Image" />
                             <div class="easy-step-shape">
-                            </div>
                         </div>
                     </div>
 
                         
                     <div class="col-lg-4 mt-5">
-                        <div class="easy-step-card left-text">
-                            <div class="row align-items-center">
+                        <div class="easy-step-card right-txt  " >
+                            <div class="row flex-sm-row-reverse flex-lg-row align-items-center second-block">
+
                                 <div class="col-lg-8 col-sm-6">
                                     <h5>Ease of Access</h5>
                                     <p>Our smart yarn is completely machine-washable and dryable, functionally smart, but just as easy to use!</p>
                                 </div>
-                                <div class="col-lg-4 col-sm-6">
+                                <div class="col-lg-4 col-sm-6 img-div">
                                     <img src="../assets/icons/Ease%20of%20access.png" width="110" />
                                 </div>
                             </div>
                         </div>
-                        <div class="easy-step-card right-text">
-                            <div class="row align-items-center">
+                        <div class="easy-step-card left-text">
+                            <div class="row align-items-center second-block">
                                 <div class="col-lg-8 col-sm-6">
                                     <h5>Affordability</h5>
                                     <p>For the first time ever, continuous, specific and feature-rich diabetic monitoring that is extremely affordable and value-driven with plans starting as low as ₹299/month!</p>
                                 </div>
-                                <div class="col-lg-4 col-sm-6">
+                                <div class="col-lg-4 col-sm-6 img-div">
                                         <img src="../assets/icons/Affordability.png" width="110" />
-                                    </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
