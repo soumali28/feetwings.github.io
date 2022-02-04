@@ -37,11 +37,11 @@ function special(){
                     </div>
                        
 
-
                     <div class="col-lg-4 mt-n5 mobile-special">
                         <div class="easy-step-img">
                             <img src="../assets/app-img/mobile-app.png" class="step-1" alt="Image" />
                             <div class="easy-step-shape">
+                            </div>
                         </div>
                     </div>
 
@@ -49,7 +49,6 @@ function special(){
                     <div class="col-lg-4 mt-5">
                         <div class="easy-step-card right-txt  " >
                             <div class="row flex-sm-row-reverse flex-lg-row align-items-center second-block">
-
                                 <div class="col-lg-8 col-sm-6">
                                     <h5>Ease of Access</h5>
                                     <p>Our smart yarn is completely machine-washable and dryable, functionally smart, but just as easy to use!</p>
