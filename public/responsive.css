@@ -1077,3 +1077,46 @@
       margin-bottom :140px;
     }
   }
+
+
+  @media only screen and (min-width:991px)and (max-width:1199px){
+      .work-text{
+        font-size: small;
+      }
+      .text-heading{
+        font-size: x-large;
+      }
+    }
+    @media only screen and (min-width:767px){
+        .work-heading-text::after{
+          content: "How we work. . .";
+        }
+        .show-on-mobile{
+          display: none;
+        }
+      }
+      @media only screen and (max-width:576px){
+        .work-text{
+          font-size: x-small;
+        }
+        .text-heading{
+          font-size: large;
+        }
+        .how-we-work-card{
+          height: 230px;
+          padding: 20px 10px;
+
+        }
+      }
+      
+    
+      
+      @media only screen and (max-width:767px){
+        .work-heading-text::after{
+          content: "How we work";
+        }
+        .hide-on-mobile{
+          display: none;
+          
+        }
+  }

@@ -10,29 +10,13 @@ function landingP(){
                             <h1>Smart Textile Based Healthcare Assistant</h1>
                             <p>FeetWings is a smart wearable company that aims to provide a solution to diabetes and related complications at an affordable rate.</p>
 
-                            <div class="app-shapes d-flex gap-5 ">
-                                <button class="d-flex rounded m-2 ">
-                                    <i class="fab fa-apple fa-3x "></i>
-                                    <div> 
-                                        <h6 style={{fontSize:"15px"}}>
-                                            Download on the 
-                                        </h6>
-                                        <h5>
-                                            App store
-                                        </h5>
-                                    </div>
-                                </button>
-                                <button class="d-flex rounded m-2">
-                                    <i class="fab fa-google-play fa-3x"></i>
-                                    <div> 
-                                        <h6 style={{fontSize:"15px"}}>
-                                            Get it on
-                                        </h6>
-                                        <h5>
-                                            Google Play
-                                        </h5>
-                                    </div>
-                                </button>
+                            <div class="app-shapes d-flex  " style={{gap:20,marginBottom:"20px"}}>
+                                <div>
+                                <img src="../assets/apple.svg" class="app-img" alt="Image" />
+                                </div>
+                                <div>
+                                     <img src="../assets/playstore.svg" class="app-img" alt="Image" />
+                                </div>
                             </div>
                         </div>
                     </div>
