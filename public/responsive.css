@@ -1029,6 +1029,19 @@
       font-weight: 400;
       margin-bottom: -10px;
     }
+
+    .flex-card-div{
+      margin-left:20px;
+      margin-right:20px;
+    }
+    
+    .card-img-container{
+        height: 180px;
+        width: 180px;
+        /* padding-bottom:25px; */
+    }
+
+    
   }
   @media only screen and (max-width: 991px) {
 
@@ -1086,7 +1099,14 @@
       .text-heading{
         font-size: x-large;
       }
+      .how-we-work-card{
+        width:220px;
+        height:250px;
+      }
     }
+  @media only screen and (min-width:577px) and (max-width:991px){
+
+  }
     @media only screen and (min-width:767px){
         .work-heading-text::after{
           content: "How we work. . .";
@@ -1103,10 +1123,14 @@
           font-size: large;
         }
         .how-we-work-card{
-          height: 230px;
-          padding: 20px 10px;
-
+          height: 160px;
+          width:135px;
+          padding: 10px 10px;
         }
+        .unique-work-card{
+          margin-left:50px;
+        }
+        
       }
       
     
@@ -1120,3 +1144,18 @@
           
         }
   }
+
+      @media only screen and (min-width:768px) and (max-width:991px){
+        .card-container{
+          /* padding-left:50px; */
+          margin-top:30px;
+        }
+      }
+
+      @media only screen and (min-width:577px) and (max-width:767px){
+        .how-we-work-card{
+          height: 250px;
+          width: 250px;
+        }
+        
+      }
