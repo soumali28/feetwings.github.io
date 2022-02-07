@@ -1344,7 +1344,7 @@ p:last-child {
   text-align: center;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  height: 250px;
+  height: 300px;
 }
 
 
@@ -2181,14 +2181,26 @@ App Landing CSS
 }
 
 .app-banner-area .app-bennr-text {
+  /* color:#000000; */
   position: relative;
   z-index: 1;
 }
+
+/* .app-banner-area .container{
+  height:490px;
+} */
 
 .app-banner-area .app-bennr-text .app-btn {
   margin-top: 40px;
 }
 
+.app-banner-area .btn{
+  background-color: #BABABA;
+  
+}
+.app-banner-area .btn_container{
+  display: flex;
+}
 .app-banner-area .app-bennr-text .app-btn .app-btn-1 {
   background-color: #567df4;
   border: 1px solid #567df4;
@@ -2224,6 +2236,7 @@ App Landing CSS
 }
 
 .app-banner-area .app-bennr-text p {
+  color:#000000;
   font-size: 20px;
 }
 
@@ -2314,6 +2327,8 @@ App Landing CSS
   position: relative;
   z-index: 1;
 }
+
+
 
 .app-banner-area .app-banner-img .app-shapes .shape-31 {
   position: absolute;
@@ -2497,6 +2512,8 @@ App Landing CSS
 .easy-step-area .easy-step-card .step-signle-card.step-p {
   padding: 25px 33px;
 }
+
+
 
 /* Powerful Area */
 .powerful-area {

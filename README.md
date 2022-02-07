@@ -50,6 +50,15 @@ cd feetwings.github.io
 npm start
 ```
 
+---
+
+The web app has been **Dockerized**
+- First install [Docker](https://www.docker.com/products/docker-desktop)
+- Second build the image, Run `docker-compose build`
+- Then start/run the container, run `docker-compose up`
+
+---
+
 **For working on the repository, you'll have to follow these steps:**
 
 1: Fork the repo

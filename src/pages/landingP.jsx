@@ -23,9 +23,8 @@ function landingP(){
 
                     <div class="col-lg-6">
                         <div class="app-banner-img">
-                            <img src="../assets/Sock.png" class="app-img" alt="Image" />
-                            <div class="app-shapes">
-                            </div>
+                            <img src="../assets/sock.png" class="app-img" alt="Image"/>
+                            <div class="app-shapes"></div>
                         </div>
                     </div>
                 </div>
