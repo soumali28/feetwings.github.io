@@ -45,7 +45,7 @@ function work() {
 
 
 
-            <div class=" container show-on-mobile">
+            <div class=" container show-on-mobile ">
                 <div class="section-title">
                     <h1 class="work-heading-text"></h1>
                 </div>
@@ -65,7 +65,7 @@ function work() {
                 </div>
                 {/* //////////////////// */}
                 <div class="row align-items-center flex-card-div">
-                    <div  class="col-5 ">
+                    <div  class="col-5  ">
                         <div  class="how-we-work-card unique-card-container  ">
                             <h3 class="text-heading">Get the app</h3>
                             <p class="work-text">The reader connects to your phone directly via bluetooth and sends the data to be stored on the app.</p>
