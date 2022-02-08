@@ -12,10 +12,10 @@ function landingP(){
 
                             <div class="app-shapes d-flex  " style={{gap:20,marginBottom:"20px"}}>
                                 <div>
-                                <img src="../assets/apple.svg" class="app-img" alt="Image" />
+                                <img src="../assets/landing_img/apple.svg" class="app-img" alt="Image" />
                                 </div>
                                 <div>
-                                     <img src="../assets/playstore.svg" class="app-img" alt="Image" />
+                                     <img src="../assets/landing_img/playstore.svg" class="app-img" alt="Image" />
                                 </div>
                             </div>
                         </div>
@@ -23,7 +23,7 @@ function landingP(){
 
                     <div class="col-lg-6">
                         <div class="app-banner-img">
-                            <img src="../assets/sock.png" class="app-img" alt="Image"/>
+                            <img src="../assets/landing_img/sock.png" class="app-img" alt="Image"/>
                             <div class="app-shapes"></div>
                         </div>
                     </div>

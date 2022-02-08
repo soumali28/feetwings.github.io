@@ -36,7 +36,7 @@ function faq(){
 
                     <div class="col-lg-6">
                         <div class="powerful-img">
-                            <img src="../assets/FAQ.svg" alt="Image" />
+                            <img src="../assets/landing_img/FAQ.svg" alt="Image" />
                         </div>
                     </div>
                 </div>
