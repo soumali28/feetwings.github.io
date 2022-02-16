@@ -8,7 +8,7 @@ function WMUS() {
                 <div class="col-lg-6 img-box text-center">
                 <div className="banner-title-container1">
                 <h1 class="banner-title">Smart Socks </h1>
-                <h4 class="banner-owner">powered by</h4>
+                <h6 class="banner-owner">powered by</h6>
                 <h2 class="banner-title">Smart Yarn</h2>
                 </div>
                     <div class="app-banner-img">
@@ -20,7 +20,7 @@ function WMUS() {
                     <div class=" ">
                         <div className="banner-title-container2">
                         <h1 class="banner-title">Smart Socks </h1>
-                        <h4 class="banner-owner">powered by</h4>
+                        <h6 class="banner-owner">powered by</h6>
                         <h2 class="banner-title">Smart Yarn</h2>
                         </div>
                     </div>
