@@ -17,8 +17,7 @@ function App() {
       <Special/>
       <WMUS/>
       <Work/>
-      <Faq/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
 
   );
