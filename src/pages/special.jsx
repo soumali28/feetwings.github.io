@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function special(){
     return (
         <div id="special" class="easy-step-area ptb-100">
@@ -14,7 +15,7 @@ function special(){
                         <div class="easy-step-card right-text">
                             <div class="row align-items-center first-block">
                                 <div class="col-lg-4 col-sm-6 img-div">
-                                    <img src="../assets/icons/Early%20Detection.png" width="110" />
+                                    <img src="../assets/icons/EarlyDetection.png" width="110" />
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
                                     <h5>Early Detection & prevention of Diabetic Complications</h5>
@@ -26,7 +27,7 @@ function special(){
                         <div class="easy-step-card left-text ">
                             <div class="row  flex-sm-row-reverse flex-lg-row align-items-center first-block ">
                                 <div class="col-lg-4 col-sm-6 img-div">
-                                    <img src="../assets/icons/Remote%20Monitoring.png" width="110" />
+                                    <img src="../assets/icons/RemoteMonitoring.png" width="110" />
                                 </div>
                                 <div class="col-lg-8 col-sm-6">
                                     <h5>Remote & Continuous Monitoring</h5>
@@ -54,7 +55,7 @@ function special(){
                                     <p>Our smart yarn is completely machine-washable and dryable, functionally smart, but just as easy to use!</p>
                                 </div>
                                 <div class="col-lg-4 col-sm-6 img-div">
-                                    <img src="../assets/icons/Ease%20of%20access.png" width="110" />
+                                    <img src="../assets/icons/Easeofaccess.png" width="110" />
                                 </div>
                             </div>
                         </div>

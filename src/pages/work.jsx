@@ -7,7 +7,7 @@ function work() {
                 <div class="section-title">
                     <h1 class="work-heading-text"></h1>
                 </div>
-                <img src="../assets/how-we-work.png" class="step-1" alt="Image" />
+                <img src="../assets/landing_img/how-we-work.png" class="step-1" alt="Image" />
                 <br></br><br></br>
                 <div class="row card-container">
                     <div class="col-lg-3 col-sm-6">
@@ -51,7 +51,7 @@ function work() {
                 </div>
                 <div class="row align-items-center flex-card-div">
                     <div class="col-5 card-img-container">
-                        <img style={{height:"100%",width:"100%"}} src="../assets/work1.svg" alt="Image" />
+                        <img style={{height:"100%",width:"100%"}} src="../assets/work/sock.svg" alt="Image" />
                     </div>
                     <div class="col-2">
                         <hr style={{ border:"5px solid rgba(90, 89, 84, 0.5)",borderRadius:"5px" }}></hr>
@@ -75,13 +75,13 @@ function work() {
                         <hr style={{ border:"5px solid rgba(90, 89, 84, 0.5)",borderRadius:"5px" }}></hr>
                     </div>
                     <div class="col-5 card-img-container">
-                        <img style={{height:"100%",width:"100%"}}  src="../assets/work2.svg" alt="Image" />
+                        <img style={{height:"100%",width:"100%"}}  src="../assets/work/app.svg" alt="Image" />
                     </div>
                 </div>
                 {/* //////////////////// */}
                 <div class="row align-items-center flex-card-div">
                     <div class="col-5 card-img-container">
-                        <img style={{height:"100%",width:"100%"}}  src="../assets/work3.svg" alt="Image" />
+                        <img style={{height:"100%",width:"100%"}}  src="../assets/work/alerts.svg" alt="Image" />
                     </div>
                     <div class="col-2">
                         <hr style={{ border:"5px solid rgba(90, 89, 84, 0.5)",borderRadius:"5px" }}></hr>
@@ -105,7 +105,7 @@ function work() {
                         <hr style={{ border:"5px solid rgba(90, 89, 84, 0.5)",borderRadius:"5px" }}></hr>
                     </div>
                     <div class="col-5 card-img-container">
-                        <img  style={{height:"100%",width:"100%"}}  src="../assets/work4.svg" alt="Image" />
+                        <img  style={{height:"100%",width:"100%"}}  src="../assets/work/doctor.svg" alt="Image" />
                     </div>
                 </div>
 
