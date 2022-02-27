@@ -18,12 +18,13 @@ const Footer = ()=>{
 
 
                 <div className="d-flex align-items-center gap-4 mb-4">
-                    <div className="d-flex align-items-center gap-4 mr-1" ><FaGithub size={42} className="fs-4" /></div>
-                    <div className="d-flex align-items-center gap-4 mr-1"><FaLinkedin size={42} className="fs-4" /></div>
-                    <div className="d-flex align-items-center gap-4 mr-1"><FaInstagram size={42} className="fs-4" /></div>
+                    <div className="d-flex align-items-center gap-4 mr-3" style={{cursor:"pointer"}} ><FaGithub size={42} className="fs-4" /></div>
+                    <div className="d-flex align-items-center gap-4 mr-3" style={{cursor:"pointer"}}><FaLinkedin size={42} className="fs-4" /></div>
+                    <div className="d-flex align-items-center gap-4 mr-1" style={{cursor:"pointer"}}><FaInstagram size={42} className="fs-4" /></div>
                 </div>
                 
-                <div class="mb-2 " style={{fontSize:"20px"}}>Terms & Conditions  |   Privacy Policy  |   FAQs  |   Career</div>
+                <div class="mb-2" style={{fontSize:"20px", cursor:"pointer"}}>Terms & Conditions  |   Privacy Policy  |   FAQs  |   Career</div>
+                <div class="mb-2" style={{fontSize:"20px", cursor:"pointer"}}></div>
                 <div style={{fontSize:"20px"}}>Copyright @2021 FeetWings. All Rights Reserved</div><br />
             </div>
         </>
