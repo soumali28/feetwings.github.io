@@ -2190,7 +2190,8 @@ App Landing CSS
 .app-banner-area {
   background-color: #b9b8b921;
   position: relative;
-  padding-bottom: 40px;
+  margin-top: 65px;
+  padding-bottom: 150px;
   z-index: 2;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -3124,3 +3125,5 @@ App Landing CSS
   padding: 0;
   display: flex;
 }
+
+/* products page */
