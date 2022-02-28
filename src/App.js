@@ -1,25 +1,28 @@
-
-import React from "react";
-import LandingP from "./pages/landingP";
-import NavBar from "./components/navbar";
-import Faq from "./pages/faq";
-import Special from "./pages/special";
-import Footer from "./components/footer";
-import Work from "./pages/work";
-import More from "./pages/whatmore";
-import WMUS from "./pages/whatMUS";
+import react from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Faqs from "./pages/FAQ";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import Smartyarn from "./pages/smartyarn";
 
 function App() {
   return(
-    <div>
-      <NavBar />
-      <LandingP/>
-      <Special/>
-      <WMUS/>
-      <Work/>
-      <Footer/>
-    </div>
-
+    <BrowserRouter>
+    <Routes> 
+       
+       <Route exact path="/" element={<Home/>} />
+       <Route exact path="/products" element={<Products/>} />
+       <Route exact path="/faq" element={<Faqs/>} />
+       <Route exact path="/smartyarn" element={<Smartyarn/>} />
+       
+          
+          
+        
+        </Routes>
+     
+        
+     
+   </BrowserRouter>
   );
 
 }
