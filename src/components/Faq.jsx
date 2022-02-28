@@ -1,6 +1,6 @@
 import React from "react";
 
-function faq(){
+function Faqs(){
     return (
         <div id="faq" class="powerful-area pt-100">
             <div class="container">
@@ -45,4 +45,4 @@ function faq(){
     );
 }
 
-export default faq;
+export default Faqs;
