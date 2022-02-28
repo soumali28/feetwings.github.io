@@ -3127,3 +3127,82 @@ App Landing CSS
 }
 
 /* products page */
+
+.heading{
+  color: black;
+  font-size: 150px;
+  font-weight: 400;
+  padding-top: 7rem;
+}
+
+.subheading{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.paragraph{
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 12rem;
+}
+.para{
+  font-size: 20px;
+  font-weight: 300;
+  
+}
+.problem{
+
+width: 401px;
+height: 82px;
+left: 68px;
+top: 77px;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 82px;
+margin-top: 6rem;
+}
+
+.column{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 6rem;
+  
+}
+.rectangle{
+
+width: 1038px;
+height: 147px;
+left: 68px;
+top: 582px;
+margin-top: 6rem;
+background: #FAEC9C;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.mes{
+  width: 280px;
+height: 75px;
+left: 351px;
+top: 617px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.line{
+width: 50px;
+height: 0px;
+left: 289px;
+top: 673px;
+
+border: 6px solid #000000;
+border-radius: 3px;
+}
