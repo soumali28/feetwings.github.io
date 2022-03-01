@@ -1215,4 +1215,20 @@
     border: 5px solid #000000;
     transform: rotate(-90deg);
   }
+  .cs {
+
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 117px;
+    text-align: center;
+    padding-top: 10rem;
+  
+    color: #000000;
+  }
+  .cs p{
+    font-size: 30px;
+  }
 }
