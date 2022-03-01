@@ -49,20 +49,58 @@ function Ourproducts() {
         </div>
       </div>
       <div class="column">
-        <div>
-          <h1>Our Solution</h1>
-          <p class="para">
-            Constant and continuous monitoring of critical parameters using IoT
-          </p>
+        <div class="container">
+          {" "}
           <div>
-            <h3>Temperature monitoring can reduce foot ulcer by</h3>
-            <h3>
-              Glucose monitoring can reduce risk of contracting any diabetic
-              complication by
-            </h3>
+            <h1>Our Solution</h1>
+            <h4>
+              Constant and continuous monitoring of critical parameters using
+              IoT
+            </h4>
+          </div>
+          <div class="space"></div>
+          <div>
+            <div class="row">
+              <p class="pt-4">Temperature monitoring can reduce foot ulcer by</p>
+              <div class="space"></div>
+              <div class="circular">
+                <div class="inner"></div>
+                <div class="number">85%</div>
+                <div class="circle">
+                  <div class="bar left">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="bar right">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br></br>
+            <br></br>
+            <div class="row">
+              <p>
+                Glucose monitoring can reduce risk of contracting any diabetic
+                complication by
+              </p>
+              <div class="space"></div>
+              <div class="circular">
+                <div class="inner"></div>
+                <div class="number">43%</div>
+                <div class="circle">
+                  <div class="bar left">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="bar right">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div>
+
+        <div class="img">
           <img src="assets/landing_img/doublesock.svg" alt="hehe"></img>
         </div>
       </div>
