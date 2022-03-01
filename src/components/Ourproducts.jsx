@@ -2,7 +2,7 @@ import React from "react";
 
 function Ourproducts() {
   return (
-    <div id="home" class="app-banner-area pt-100">
+    <div id="home" class="sc pt-100">
       <div class="container">
         <div class=" align-items-center text-center">
           <div>

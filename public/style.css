@@ -3272,4 +3272,12 @@ border-radius: 6px;
   height: 100px;
   width: 100px;
 }
+.sc{
+  background-color: #b9b8b921;
+  position: relative;
+  margin-top: 65px;
+  z-index: 2;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 

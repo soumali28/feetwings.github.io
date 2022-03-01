@@ -8,6 +8,7 @@ function Products() {
     <div>
       <Navbar/>
       <Ourproducts/>
+      <Footer/>
     </div>
     
   )
