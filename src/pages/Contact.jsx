@@ -9,7 +9,7 @@ function Contact() {
     <div>
     
     <Contactus/>
-    
+
         <Navbar/>
 
         <br></br>
