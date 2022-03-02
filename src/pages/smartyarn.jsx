@@ -1,5 +1,7 @@
 import React from 'react'
+import Footer from '../components/footer'
 import Navbar from '../components/navbar'
+import Subscribe from '../components/Subscribe'
 import WMUS from '../components/whatMUS'
 
 function Smartyarn() {
@@ -7,6 +9,8 @@ function Smartyarn() {
     <div>
         <Navbar/>
         <WMUS/>
+        <Subscribe/>
+        <Footer/>
         </div>
   )
 }
