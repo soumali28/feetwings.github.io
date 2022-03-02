@@ -4,6 +4,7 @@ import Navbar from '../components/navbar'
 import Ourproducts from '../components/Ourproducts'
 import Subscribe from '../components/Subscribe'
 import Whatmore from '../components/Whatmore'
+import WhatMore from './whatmore'
 
 function Products() {
   return (
@@ -12,6 +13,7 @@ function Products() {
       <Ourproducts/>
       <Whatmore/>
       <Subscribe/>
+      <WhatMore />
       <Footer/>
     </div>
     
