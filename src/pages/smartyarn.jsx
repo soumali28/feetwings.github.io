@@ -11,7 +11,7 @@ function Smartyarn() {
         <WMUS/>
         <Subscribe/>
         <Footer/>
-        </div>
+    </div>
   )
 }
 

@@ -22,7 +22,7 @@ function Subscribe() {
               width: "30%",
               height: "35px",
               textSize: "15px",
-              backgroundColor: "#FCFAE8",
+              backgroundColor: "#E8E8E8",
               border: "none",
               borderRadius: "5px",
             }}
@@ -43,7 +43,7 @@ function Subscribe() {
         }}
         class="show-on-mobile "
       >
-        <div class=" p-4 text-center fw-bold" style={{ fontSize: "30px" }}>
+        <div class=" p-4 text-center fw-bold" style={{ fontSize: "24px" }}>
           Subscribe to get news and updates
         </div>
         <div class=" sm-flex  pb-3 text-center ">
@@ -54,7 +54,7 @@ function Subscribe() {
               width: "80%",
               height: "35px",
               textSize: "15px",
-              backgroundColor: "#FCFAE8",
+              backgroundColor: "#E8E8E8",
               border: "none",
               borderRadius: "5px",
             }}
@@ -63,7 +63,7 @@ function Subscribe() {
         <div class=" sm-flex pb-4 text-center ">
           <button
             class="btn  ml-4 "
-            style={{ backgroundColor: "#F2E88D", borderRadius: "5px" }}
+            style={{ backgroundColor: "#333533", borderRadius: "5px", color:"white" }}
           >
             Subscribe
           </button>

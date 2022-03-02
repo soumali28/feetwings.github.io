@@ -4,7 +4,7 @@ import Navbar from '../components/navbar'
 import Ourproducts from '../components/Ourproducts'
 import Subscribe from '../components/Subscribe'
 import Whatmore from '../components/Whatmore'
-import WhatMore from './whatmore'
+import WhatMore from '../components/Whatmore'
 
 function Products() {
   return (
