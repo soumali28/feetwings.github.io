@@ -35,7 +35,7 @@ function Ourproducts() {
             about 77 million diabetic patients second to China.
           </p>
           <div class="rectangle container">
-            <div class="mes">Uncontrolled diabetes</div>
+            <div class="mes">Uncontrolled diabetes and problems</div>
             <div class="line"></div>
             <div class="mes">Foot ulcers, CVD and retinopathy</div>
             <div class="line"></div>
@@ -52,16 +52,16 @@ function Ourproducts() {
         <div class="container">
           {" "}
           <div>
-            <h1>Our Solution</h1>
-            <h4>
+            <div style={{fontSize:"60px"}}>Our Solution</div>
+            <div style={{fontSize:"30px"}}>
               Constant and continuous monitoring of critical parameters using
               IoT
-            </h4>
+            </div>
           </div>
           <div class="space"></div>
-          <div>
+          <div class="container">
             <div class="row">
-              <p class="pt-4">Temperature monitoring can reduce foot ulcer by</p>
+              <p class="pt-4" style={{fontSize:"24px"}}>Temperature monitoring can reduce foot ulcer by</p>
               <div class="space"></div>
               <div class="circular">
                 <div class="inner"></div>
@@ -79,7 +79,7 @@ function Ourproducts() {
             <br></br>
             <br></br>
             <div class="row">
-              <p>
+              <p class="pt-4" style={{fontSize:"24px"}}>
                 Glucose monitoring can reduce risk of contracting any diabetic
                 complication by
               </p>

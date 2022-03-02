@@ -12,7 +12,7 @@ function WMUS() {
                 <h2 class="banner-title">Smart Yarn</h2>
                 </div>
                     <div class="app-banner-img">
-                    <img src="../assets/landing_img/fibre.png" class="app-img" alt="Image" />
+                    <img src="../assets/landing_img/fibre.svg" class="app-img" alt="Image" />
                     <div class="app-shapes"></div>
                     </div>
                 </div>
