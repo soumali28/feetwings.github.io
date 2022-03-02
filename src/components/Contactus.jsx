@@ -13,7 +13,6 @@ function Contactus() {
 
       <div
         style={{
-          background: "#F1F1F1",
           justifyContent: "center",
           alignItems: "center",
           paddingBottom: "6rem",
@@ -31,7 +30,7 @@ function Contactus() {
               promptly.
             </p>
             <form
-              action="mailo:mishrashree18@gmail.com"
+              action="mailo:team@feetwings.com"
               method="post"
               encType="text/plain"
             >
@@ -48,12 +47,10 @@ function Contactus() {
           <div class="align-items-center text-center">
             <img src="assets/landing_img/contact.svg" alt="contact" />
             
-            <p style={{marginTop:"20px"}}>team@feetwings.com</p>
+            <p style={{marginTop:"30px"}}>team@feetwings.com</p>
 
             <div>
-             <FaGithub size={36} className="fs-4" style={{marginRight:"6px"}} />
-              
-              
+              <FaGithub size={36} className="fs-4" style={{marginRight:"6px"}} />
               
               <FaInstagram size={36} className="fs-4" style={{marginRight:"6px"}} />
             
@@ -64,8 +61,6 @@ function Contactus() {
           </div>
         </div>
       </div>
-      <Subscribe />
-      <Footer />
     </section>
   );
 }
