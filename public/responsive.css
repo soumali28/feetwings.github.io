@@ -965,7 +965,7 @@
 @media only screen and (min-width: 991px) {
   .app-banner-area .btn {
     margin-top: 20px;
-    padding: 8px 35px 8px 35px;
+    padding: 4px 25px 4px 25px;
     font-size: 25px;
     border-radius: 15px;
   }
@@ -1230,5 +1230,13 @@
   }
   .cs p{
     font-size: 30px;
+  }
+  .rect{
+  
+left: 17px;
+top: 156px;
+
+background: #FFFFFF;
+border-radius: 30px;
   }
 }
