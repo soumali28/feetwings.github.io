@@ -23,7 +23,7 @@ const Footer = ()=>{
                     <div className="d-flex align-items-center gap-4 mr-1" style={{cursor:"pointer"}}><FaInstagram size={42} className="fs-4" /></div>
                 </div>
                 
-                <div class="mb-2" style={{fontSize:"20px", cursor:"pointer"}}>Terms & Conditions  |   Privacy Policy  |   FAQs  |   Career</div>
+                <div class="mb-2" style={{fontSize:"20px", cursor:"pointer"}}><a href="/toc">Terms & Conditions</a>  |   <a href="/privacy">Privacy Policy</a>  |   <a href="/faq">FAQs</a>  |   <a href="/career">Career</a></div>
                 <div class="mb-2" style={{fontSize:"20px", cursor:"pointer"}}></div>
                 <div style={{fontSize:"20px"}}>Copyright @2021 FeetWings. All Rights Reserved</div><br />
             </div>
