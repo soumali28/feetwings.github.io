@@ -37,7 +37,6 @@ function special(){
                         </div>
                     </div>
                        
-
                     <div class="col-lg-4 mt-n5 mobile-special">
                         <div class="easy-step-img">
                             <img src="../assets/app-img/mobile-app.png" class="step-1" alt="Image" />
@@ -46,7 +45,6 @@ function special(){
                         </div>
                     </div>
 
-                        
                     <div class="col-lg-4 mt-5">
                         <div class="easy-step-card right-txt  " >
                             <div class="row flex-sm-row-reverse flex-lg-row align-items-center second-block">
