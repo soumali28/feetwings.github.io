@@ -4,8 +4,8 @@ import NavBar from "../components/navbar"
 import Special from "./special";
 import Footer from "../components/footer";
 import Work from "./work";
-import More from "./whatmore";
 import WMUS from "../components/whatMUS";
+import Subscribe from '../components/Subscribe';
 
 function Home() {
   return (
@@ -15,6 +15,7 @@ function Home() {
     <Special/>
     <WMUS/>
     <Work/>
+    <Subscribe/>
     <Footer/>
   
 </div>

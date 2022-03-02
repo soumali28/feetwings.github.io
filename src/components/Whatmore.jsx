@@ -1,6 +1,6 @@
 import React from "react";
 
-function more(){
+function Whatmore(){
     return (
         <div id="features" class="our-services-area service-shape pt-100 pb-70">
             <div class="container">
@@ -64,4 +64,4 @@ function more(){
     );
 }
 
-export default more;
+export default Whatmore;

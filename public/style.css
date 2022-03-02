@@ -3299,6 +3299,10 @@ App Landing CSS
   overflow-x: hidden;
   overflow-y: hidden;
 }
+.anchor{
+  text-decoration: none;
+  color: #000000;
+}
 .cs {
 
   align-items: center;
