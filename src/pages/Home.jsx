@@ -10,15 +10,15 @@ import Subscribe from '../components/Subscribe';
 function Home() {
   return (
     <div>
-    <NavBar />
-    <LandingP/>
-    <Special/>
-    <WMUS/>
-    <Work/>
-    <Subscribe/>
-    <Footer/>
+      <NavBar />
+      <LandingP/>
+      <Special/>
+      <WMUS/>
+      <Work/>
+      <Subscribe/>
+      <Footer/>
   
-</div>
+    </div>
   )
 }
 

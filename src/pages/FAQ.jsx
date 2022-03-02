@@ -1,6 +1,6 @@
 import React from 'react'
-import Faqs from '../components/Faq'
-import Navbar from '../components/navbar'
+import Faqs from '../components/Faq';
+import Navbar from '../components/navbar';
 import Footer from "../components/footer";
 import Subscribe from '../components/Subscribe';
 
@@ -14,7 +14,7 @@ function Faq() {
         <br></br>
         <Subscribe/>
         <Footer/>
-        </div>
+    </div>
   )
 }
 

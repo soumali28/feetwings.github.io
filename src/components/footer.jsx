@@ -1,10 +1,5 @@
 import React from "react";
-import {FaCode} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
-import {FiThumbsUp} from "react-icons/fi";
-import {MdOutlineCopyright} from "react-icons/md";
-
-
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
@@ -15,7 +10,6 @@ const Footer = ()=>{
             <div className="d-flex flex-column px-3 py-3 align-items-center font-link text-center " style={{backgroundColor : "rgb(241, 241, 241)"}}><br />
 
                 <br />
-
 
                 <div className="d-flex align-items-center gap-4 mb-4">
                     <div className="d-flex align-items-center gap-4 mr-3" style={{cursor:"pointer"}} ><FaGithub size={42} className="fs-4" /></div>
