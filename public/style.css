@@ -1354,7 +1354,7 @@ p:last-child {
   padding: 40px 30px;
   -webkit-box-shadow: 0px 0px 20px 1px #e0dddd;
   box-shadow: 0px 0px 20px 1px #e0dddd;
-  background-color: rgba(242, 232, 141, 0.2);
+  background-color: rgba(214, 214, 214, 0.2);
   margin-bottom: 30px;
   border-radius: 10px;
   text-align: center;
@@ -1380,7 +1380,7 @@ p:last-child {
 
 /* Our Services Area */
 .our-services-area {
-  background-color: #f5df4d9e;
+  background-color: #b9b8b921;
 }
 
 .our-service-card {
@@ -3202,7 +3202,7 @@ App Landing CSS
   left: 68px;
   top: 582px;
   margin-top: 6rem;
-  background: #faec9c;
+  background: #E8E8E8;
   display: flex;
   flex-direction: row;
   align-items: center;
