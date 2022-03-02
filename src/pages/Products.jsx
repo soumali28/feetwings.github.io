@@ -13,7 +13,6 @@ function Products() {
       <Ourproducts/>
       <Whatmore/>
       <Subscribe/>
-      <WhatMore />
       <Footer/>
     </div>
     

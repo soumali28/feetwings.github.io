@@ -2,11 +2,11 @@ import React from "react";
 
 function Subscribe() {
   return (
-    <div>
+    <div >
       <div
         style={{
           backgroundColor: "rgb(241, 241, 241)",
-          marginTop: "20px",
+          marginTop: "0px",
           marginBottom: "-70px",
         }}
         class="hide-on-mobile "
