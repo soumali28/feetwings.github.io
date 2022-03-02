@@ -36,7 +36,7 @@ function WMUS() {
                 </div>
             </div>
             <div class="btn_container">
-                <button class=" btn">More</button>
+                <button class="btn">More</button>
             </div>
         </div>
     </div>

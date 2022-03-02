@@ -3318,11 +3318,26 @@ App Landing CSS
   color: #000000;
 }
 .rect{
-width: 1368px;
-height: 782px;
-margin: 4px;
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(105, 105, 105, 0.25);
+  padding: 15px;
+  left: 180px;
+  top: 214px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(105, 105, 105, 0.25);
+  border-radius: 30px;
+
+}
+.input{
+background: #F3F4F4;
 border-radius: 30px;
+border: 0px;
+margin-bottom: 12px;
+padding-top: 6px;
+}
+.button{
+  background: #000000;
+  border-radius: 30px;
+  color: white;
+  border: 0px;
+  padding: 6px 12px 6px 12px;
 }
 

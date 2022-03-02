@@ -7,12 +7,11 @@ import Subscribe from '../components/Subscribe'
 function Contact() {
   return (
     <div>
-    <Navbar/>
-    <br></br>
+    
+    
     <Contactus/>
-    <br></br>
-    <Subscribe/>
-    <Footer/></div>
+    
+    </div>
   )
 }
 
