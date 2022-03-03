@@ -9,9 +9,8 @@ function TOC() {
     <div>
     <Navbar/>
     <Comingsoon/>
-    <br></br>
-    <Subscribe/>
-    <Footer/>
+    
+    
     </div>
   )
 }

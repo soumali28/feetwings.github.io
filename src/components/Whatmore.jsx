@@ -5,7 +5,7 @@ function Whatmore(){
         <div id="features" class="our-services-area service-shape pt-100 pb-70">
             <div class="container">
                 <div class="section-title">
-                    <h2>What's More</h2>
+                    <h2 style={{marginBottom:"5rem"}}>What's More</h2>
                 </div>
 
                 <div class="row">
