@@ -10,9 +10,7 @@ function Privacy() {
     <div>
       <Navbar/>
       <Comingsoon/>
-      <br></br>
-      <Subscribe/>
-      <Footer/>
+     
     </div>
   )
 }
