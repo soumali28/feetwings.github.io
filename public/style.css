@@ -3345,9 +3345,9 @@ App Landing CSS
   background: #f3f4f4;
   border-radius: 30px;
   border: 0px;
-  margin-bottom: 12px;
-  width: 630px;
+  margin-bottom: 16px;
   height: 94px;
+  padding: 30px;
 }
 .button {
   background: #000000;
@@ -3355,4 +3355,14 @@ App Landing CSS
   color: white;
   border: 0px;
   padding: 6px 12px 6px 12px;
+}
+.shree{
+  background: #f3f4f4;
+  border-radius: 30px;
+  border: 0px;
+  margin-bottom: 16px;
+  width: 330px;
+  height: 44px;
+  padding: 10px;
+  margin: 4px;
 }

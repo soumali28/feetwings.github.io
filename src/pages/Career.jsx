@@ -2,15 +2,18 @@ import React from 'react'
 import Navbar from '../components/navbar';
 import Subscribe from '../components/Subscribe';
 import Footer from "../components/footer";
+import AddCareer from '../components/AddCareer';
 
 function Career() {
   return (
-    <div>
-      <Navbar/>
+    <section>
       
-      <Subscribe/>
-      <Footer/>
-    </div>
+      <Navbar/>
+        <AddCareer/>
+     <Subscribe/>
+     <Footer/>
+      
+    </section>
   )
 }
 
