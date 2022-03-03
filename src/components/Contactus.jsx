@@ -5,6 +5,7 @@ import Subscribe from "./Subscribe";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 function Contactus() {
   return (
@@ -47,20 +48,31 @@ function Contactus() {
           </div>
           <div class="align-items-center text-center">
             <img src="assets/landing_img/contact.svg" alt="contact" />
-            
-            <p style={{marginTop:"20px"}}>team@feetwings.com</p>
+
+            <p style={{ marginTop: "20px",color:"black", fontSize:"1rem" }}>
+              <AiOutlineMail style={{marginRight:"6px", cursor:"pointer"}} />
+              team@feetwings.com
+            </p>
 
             <div>
-             <FaGithub size={36} className="fs-4" style={{marginRight:"6px"}} />
-              
-              
-              
-              <FaInstagram size={36} className="fs-4" style={{marginRight:"6px"}} />
-            
-              <FaLinkedin size={36} className="fs-4" style={{marginRight:"4px", color:"#0A66C2"}} />
+              <FaGithub
+                size={36}
+                className="fs-4"
+                style={{ marginRight: "6px", cursor:"pointer" }}
+              />
+
+              <FaInstagram
+                size={36}
+                className="fs-4"
+                style={{ marginRight: "6px", cursor:"pointer" }}
+              />
+
+              <FaLinkedin
+                size={36}
+                className="fs-4"
+                style={{ marginRight: "4px", color: "#0A66C2", cursor:"pointer" }}
+              />
             </div>
-                
-            
           </div>
         </div>
       </div>
