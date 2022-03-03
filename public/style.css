@@ -3331,7 +3331,18 @@ background: #F3F4F4;
 border-radius: 30px;
 border: 0px;
 margin-bottom: 12px;
-padding-top: 6px;
+width: 630px;
+height: 44px;
+}
+#message{
+  
+    background: #F3F4F4;
+    border-radius: 30px;
+    border: 0px;
+    margin-bottom: 12px;
+    width: 630px;
+    height: 94px;
+   
 }
 .button{
   background: #000000;
