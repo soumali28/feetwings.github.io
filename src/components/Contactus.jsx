@@ -14,7 +14,6 @@ function Contactus() {
 
       <div
         style={{
-          background: "#F1F1F1",
           justifyContent: "center",
           alignItems: "center",
           paddingBottom: "6rem",
@@ -32,7 +31,7 @@ function Contactus() {
               promptly.
             </p>
             <form
-              action="mailo:mishrashree18@gmail.com"
+              action="mailo:team@feetwings.com"
               method="post"
               encType="text/plain"
             >
@@ -76,8 +75,6 @@ function Contactus() {
           </div>
         </div>
       </div>
-      <Subscribe />
-      <Footer />
     </section>
   );
 }
