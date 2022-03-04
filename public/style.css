@@ -3366,3 +3366,11 @@ App Landing CSS
   padding: 10px;
   margin: 4px;
 }
+.box{
+margin:6rem;
+background: #FFFFFF;
+border-radius: 20px;
+}
+.dis{
+  margin-right: 4rem;
+}
