@@ -9,6 +9,7 @@ import Privacy from "./pages/Privacy";
 import Products from "./pages/Products";
 import Smartyarn from "./pages/smartyarn";
 import TOC from "./pages/TOC"
+import DisplayCareer from "./components/DisplayCareer"
 
 function App() {
   return(
@@ -24,6 +25,7 @@ function App() {
        <Route exact path="/privacy" element={<Privacy/>} />
        <Route exact path="/toc" element={<TOC/>} />
        <Route exact path="/career" element={<Career/>} />
+       <Route exact path="/careerdisplay" element={<DisplayCareer/>} />
 
        
           

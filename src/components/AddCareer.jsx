@@ -5,10 +5,15 @@ function AddCareer() {
     <div>
       <div
         class="align-items-center"
-        style={{ display: "flex", flexDirection: "column",marginTop:"8rem" }}
+        style={{ display: "flex", flexDirection: "column", marginTop: "8rem" }}
       >
         <h1>Career Dashboard</h1>
-        <form class="container" action="#" method="POST" style={{flexDirection:"row",marginTop:"4rem"}}>
+        <form
+          class="container"
+          action="#"
+          method="POST"
+          style={{ flexDirection: "row", marginTop: "4rem" }}
+        >
           <input
             type="text"
             name="title"
@@ -18,7 +23,7 @@ function AddCareer() {
             class="shree"
             placeholder="Title"
           />
-          <select name="payment" id="payment" required class="shree" >
+          <select name="payment" id="payment" required class="shree">
             <option value="">Paid</option>
             <option value="">Gratis</option>
           </select>
@@ -27,7 +32,12 @@ function AddCareer() {
             <option value="">Office</option>
           </select>
         </form>
-        <form class="container" action="#" method="POST" style={{flexDirection:"row",marginTop:"2rem"}}>
+        <form
+          class="container"
+          action="#"
+          method="POST"
+          style={{ flexDirection: "row", marginTop: "2rem" }}
+        >
           <input
             type="text"
             name="location"
@@ -56,11 +66,23 @@ function AddCareer() {
           id="message"
           name="Short Description"
           class="container"
-          style={{marginTop:"2rem"}}
+          style={{ marginTop: "2rem" }}
           placeholder="Short Description"
         ></textarea>
-        <textarea id="message" placeholder="Long Description" name="Long Description" class="container" style={{marginTop:"2rem"}}></textarea>
-        <textarea id="message" placeholder="Message" name="message" class="container" style={{marginTop:"2rem"}}></textarea>
+        <textarea
+          id="message"
+          placeholder="Long Description"
+          name="Long Description"
+          class="container"
+          style={{ marginTop: "2rem" }}
+        ></textarea>
+        <textarea
+          id="message"
+          placeholder="Message"
+          name="message"
+          class="container"
+          style={{ marginTop: "2rem" }}
+        ></textarea>
       </div>
     </div>
   );
