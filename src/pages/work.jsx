@@ -5,7 +5,7 @@ function work() {
         <div id="work" class="how-we-work service-shape pt-100 pb-70 ">
             <div class="container hide-on-mobile" style={{marginBottom:"80px"}}>
                 <div class="section-title">
-                    <h1 class="work-heading-text"></h1>
+                    <h1 class="work-heading-text" aria-hidden="true"></h1>
                 </div>
                 <img src="../assets/landing_img/how-we-work.png" class="step-1" alt="Work" />
                 <br></br><br></br>
@@ -42,7 +42,7 @@ function work() {
 
             <div class=" container show-on-mobile ">
                 <div class="section-title">
-                    <h1 class="work-heading-text"></h1>
+                    <h1 class="work-heading-text" aria-hidden="true"></h1>
                 </div>
                 <div class="row align-items-center flex-card-div">
                     <div class="col-5 card-img-container">
