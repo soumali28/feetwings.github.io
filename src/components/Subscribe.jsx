@@ -39,7 +39,6 @@ function Subscribe() {
         style={{
           backgroundColor: "rgb(241, 241, 241)",
           marginBottom: "20px",
-          marginBottom: "-40px",
         }}
         class="show-on-mobile "
       >

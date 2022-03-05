@@ -1,7 +1,5 @@
 import React from "react";
-import Footer from "./footer";
 import Navbar from "./navbar";
-import Subscribe from "./Subscribe";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -46,7 +44,7 @@ function Contactus() {
             </form>
           </div>
           <div class="align-items-center text-center">
-            <img src="assets/landing_img/contact.svg" alt="contact" />
+            <img src="assets/landing_img/contact.svg" alt="FeetWings" />
 
             <p style={{ marginTop: "20px",color:"black", fontSize:"1rem" }}>
               <AiOutlineMail style={{marginRight:"6px", cursor:"pointer"}} />
