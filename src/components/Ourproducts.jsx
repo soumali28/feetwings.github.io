@@ -45,7 +45,7 @@ function Ourproducts() {
           </div>
         </div>
         <div>
-          <img src="assets/landing_img/ps.svg" alt="ps" />
+          <img src="assets/landing_img/ps.svg" alt="FeetWings" />
         </div>
       </div>
       <div class="column">
@@ -101,7 +101,7 @@ function Ourproducts() {
         </div>
 
         <div class="img">
-          <img src="assets/landing_img/doublesock.svg" alt="hehe"></img>
+          <img src="assets/landing_img/doublesock.svg" alt="FeetWings"></img>
         </div>
       </div>
     </div>

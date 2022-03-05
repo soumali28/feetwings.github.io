@@ -36,7 +36,7 @@ function Faqs(){
 
                     <div class="col-lg-6">
                         <div class="powerful-img">
-                            <img src="../assets/landing_img/FAQ.svg" alt="Image" />
+                            <img src="../assets/landing_img/FAQ.svg" alt="FeetWings" />
                         </div>
                     </div>
                 </div>

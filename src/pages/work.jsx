@@ -1,5 +1,5 @@
 import React from "react";
-// import "../../public/assets/work1.jpg"
+
 function work() {
     return (
         <div id="work" class="how-we-work service-shape pt-100 pb-70 ">
@@ -7,7 +7,7 @@ function work() {
                 <div class="section-title">
                     <h1 class="work-heading-text"></h1>
                 </div>
-                <img src="../assets/landing_img/how-we-work.png" class="step-1" alt="Image" />
+                <img src="../assets/landing_img/how-we-work.png" class="step-1" alt="Work" />
                 <br></br><br></br>
                 <div class="row card-container">
                     <div class="col-lg-3 col-sm-6">
@@ -40,18 +40,13 @@ function work() {
                 </div>
             </div>
 
-
-
-
-
-
             <div class=" container show-on-mobile ">
                 <div class="section-title">
                     <h1 class="work-heading-text"></h1>
                 </div>
                 <div class="row align-items-center flex-card-div">
                     <div class="col-5 card-img-container">
-                        <img style={{height:"100%",width:"100%"}} src="../assets/work/sock.svg" alt="Image" />
+                        <img style={{height:"100%",width:"100%"}} src="../assets/work/sock.svg" alt="FeetWings" />
                     </div>
                     <div class="col-2">
                         <hr style={{ border:"5px solid rgba(90, 89, 84, 0.5)",borderRadius:"5px" }}></hr>
@@ -75,13 +70,13 @@ function work() {
                         <hr style={{ border:"5px solid rgba(90, 89, 84, 0.5)",borderRadius:"5px" }}></hr>
                     </div>
                     <div class="col-5 card-img-container">
-                        <img style={{height:"100%",width:"100%"}}  src="../assets/work/app.svg" alt="Image" />
+                        <img style={{height:"100%",width:"100%"}}  src="../assets/work/app.svg" alt="FeetWings" />
                     </div>
                 </div>
                 {/* //////////////////// */}
                 <div class="row align-items-center flex-card-div">
                     <div class="col-5 card-img-container">
-                        <img style={{height:"100%",width:"100%"}}  src="../assets/work/alerts.svg" alt="Image" />
+                        <img style={{height:"100%",width:"100%"}}  src="../assets/work/alerts.svg" alt="FeetWings" />
                     </div>
                     <div class="col-2">
                         <hr style={{ border:"5px solid rgba(90, 89, 84, 0.5)",borderRadius:"5px" }}></hr>
@@ -105,7 +100,7 @@ function work() {
                         <hr style={{ border:"5px solid rgba(90, 89, 84, 0.5)",borderRadius:"5px" }}></hr>
                     </div>
                     <div class="col-5 card-img-container">
-                        <img  style={{height:"100%",width:"100%"}}  src="../assets/work/doctor.svg" alt="Image" />
+                        <img  style={{height:"100%",width:"100%"}}  src="../assets/work/doctor.svg" alt="FeetWings" />
                     </div>
                 </div>
 
