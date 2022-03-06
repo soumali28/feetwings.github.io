@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js 13.10
+    - name: Use Node.js 17.6.0
       uses: actions/setup-node@v1
       with:
         node-version: '13.10'
