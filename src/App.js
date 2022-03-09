@@ -26,14 +26,8 @@ function App() {
        <Route exact path="/career" element={<Career/>} />
        <Route exact path="/careerdisplay" element={<DisplayCareer/>} />
 
-       
-          
-          
-        
         </Routes>
-     
-        
-     
+
    </BrowserRouter>
   );
 
