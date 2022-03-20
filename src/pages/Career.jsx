@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Navbar from '../components/navbar';
 import Subscribe from '../components/Subscribe';
 import Footer from "../components/footer";

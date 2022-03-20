@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
@@ -11,6 +11,7 @@ import Products from "./pages/Products";
 import Smartyarn from "./pages/smartyarn";
 import TOC from "./pages/TOC";
 import DisplayCareer from "./components/DisplayCareer"
+
 
 function App() {
   return(

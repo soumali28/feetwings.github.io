@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
 import Aboutus from '../components/Aboutus';
+import Footer from "../components/footer";
+import Subscribe from '../components/Subscribe';
 
 function About() {
   return (
-    <div><Aboutus/></div>
+    <div>
+      <Aboutus/>
+      <br></br>
+        <Subscribe/>
+        <Footer/>
+    
+    </div>
   )
 }
 
