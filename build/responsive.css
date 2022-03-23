@@ -924,7 +924,6 @@
   .app-shapes {
     justify-content: start;
     margin-top: 30px;
-    margin-left: -15px;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -990,7 +989,7 @@
   .content-box {
     display: flex;
     flex-direction: column;
-    gap: 130px;
+    gap: 50px;
     align-items: flex-end;
   }
 

@@ -103,148 +103,29 @@ p:last-child {
   max-width: 525px;
   margin: auto;
 }
-
-.main-navbar {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+ /* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.main-navbar.menu-shrink {
-  -webkit-box-shadow: 0px 2px 25px #ddd;
-  box-shadow: 0px 2px 25px #ddd;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #ffffff;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(94, 92, 92); 
+  border-radius: 10px;
 }
 
-.main-navbar .navbar-nav .nav-link {
-  color: #301d44;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 10px;
-  margin: 0 20px;
-  position: relative;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #596a99; 
 }
 
-.main-navbar .navbar-nav .nav-link::before {
-  content: "";
-  position: absolute;
-  background-color: #0f4c81;
-  width: 100%;
-  height: 2px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.main-navbar .navbar-nav .nav-link:focus {
-  color: #0f4c81;
-}
-
-.main-navbar .navbar-nav .nav-link:hover {
-  color: #0f4c81;
-}
-
-.main-navbar .navbar-nav .nav-link:hover::before {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-
-.main-navbar .navbar-nav .nav-link.active {
-  color: #0f4c81;
-}
-
-.main-navbar .navbar-nav .nav-link.active::before {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-
-.main-navbar .nav-btn .default-btn {
-  padding: 10px 25px;
-}
-
-.main-navbar .nav-btn .default-btn.bg-main {
-  background-color: #567df4;
-  color: #ffffff;
-}
-
-.main-navbar .nav-btn .default-btn.bg-main:hover {
-  background-color: #301d44;
-  color: #ffffff;
-}
-
-.main-navbar .nav-btn .default-btn.bg-color {
-  background-color: #301d44;
-  color: #ffffff;
-}
-
-.main-navbar .nav-btn .default-btn:hover {
-  background-color: #567df4;
-  color: #ffffff;
-}
-
-/* Toggler Navbar */
-.navbar-toggler {
-  border: none;
-  padding: 7px;
-  border-radius: 0;
-}
-
-.navbar-toggler .icon-bar {
-  width: 28px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  background: #069ee8;
-  height: 2px;
-  display: block;
-}
-
-.navbar-toggler .top-bar {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transform-origin: 10% 10%;
-  transform-origin: 10% 10%;
-  left: 0;
-  position: relative;
-}
-
-.navbar-toggler .middle-bar {
-  opacity: 1;
-  margin: 6px 0;
-}
-
-.navbar-toggler .bottom-bar {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transform-origin: 10% 90%;
-  transform-origin: 10% 90%;
-  left: 0px;
-  position: relative;
-}
-
-.navbar-toggler[aria-expanded="true"] .top-bar {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  left: 0;
-}
-
-.navbar-toggler[aria-expanded="true"] .middle-bar {
-  opacity: 0;
-}
-
-.navbar-toggler[aria-expanded="true"] .bottom-bar {
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  left: 0;
-}
-
-.saas-banner-area {
+/* .saas-banner-area {
   background-color: #567df4;
   height: 1000px;
   border-bottom-left-radius: 80px;
@@ -467,7 +348,7 @@ p:last-child {
 .saas-service-card:hover .icon i {
   text-align: center;
   left: 12px;
-}
+} */
 
 /* Features Area CSS */
 .features-area {
@@ -504,7 +385,7 @@ p:last-child {
 }
 
 /* SaaS Features */
-.saas-features {
+/* .saas-features {
   padding: 25px 25px 25px 110px;
   position: relative;
   background-color: #ffffff;
@@ -558,10 +439,10 @@ p:last-child {
 
 .saas-features:hover .icon i {
   top: 5px;
-}
+} */
 
 /* Personal Area CSS */
-.built-saas-app {
+/* .built-saas-app {
   background-color: #567df4;
 }
 
@@ -620,7 +501,7 @@ p:last-child {
 }
 
 /* Saas Download Area CSS */
-.saas-downloand-area {
+/*.saas-downloand-area {
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -662,10 +543,10 @@ p:last-child {
   left: -65px;
   bottom: -150px;
   max-width: 620px;
-}
+} */
 
 /* Clients Area CSS */
-.clients-area {
+/* .clients-area {
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -802,7 +683,7 @@ p:last-child {
   bottom: 55px;
   right: 0;
   z-index: -1;
-}
+} */
 
 /* Footer Area CSS */
 .footer-area {
@@ -1112,17 +993,10 @@ p:last-child {
   color: #ffffff;
 }
 
-/* Navbar Area */
-.main-navbar.seo-nav {
-  border-bottom: 1px solid #eae7f4;
-}
 
-.main-navbar.seo-nav.menu-shrink {
-  background-color: #ffffff;
-}
 
 /* About Us Area */
-.about-us-area .about-us-img {
+/* .about-us-area .about-us-img {
   -webkit-animation: moveLeftBounce 3s linear infinite;
   animation: moveLeftBounce 3s linear infinite;
 }
@@ -1174,17 +1048,16 @@ p:last-child {
 .about-us-area .about-us-text .about-btn .default-btn {
   background-color: #567df4;
   color: #ffffff;
-  margin-top: 10px;
-  -webkit-transition: all 0.5s;
+  margin-top: 10px;  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .about-us-area .about-us-text .about-btn .default-btn:hover {
   background-color: #242424;
-}
+} */
 
 /* Who We Are Area */
-.who-we-area .section-title {
+/* .who-we-area .section-title {
   text-align: left;
   margin-bottom: 20px;
 }
@@ -1238,10 +1111,10 @@ p:last-child {
   box-shadow: 0px 0px 20px #7f7f7f;
   -webkit-animation: moveBounce 5s linear infinite;
   animation: moveBounce 5s linear infinite;
-}
+} */
 
 /* Choose Us Area */
-.choose-us-area {
+/* .choose-us-area {
   background-color: #f5df4d78;
 }
 
@@ -1345,38 +1218,7 @@ p:last-child {
 
 .video-btn-1 a .ripple {
   background-color: rgba(255, 255, 255, 0.46);
-}
-.how-we-work {
-  background-color: #ffffff9e;
-}
-
-.how-we-work-card {
-  padding: 40px 30px;
-  -webkit-box-shadow: 0px 0px 20px 1px #e0dddd;
-  box-shadow: 0px 0px 20px 1px #e0dddd;
-  background-color: rgba(214, 214, 214, 0.2);
-  margin-bottom: 30px;
-  border-radius: 10px;
-  text-align: center;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  height: 280px;
-  width: 250px;
-}
-
-.how-we-work-card1 {
-  padding: 40px 30px;
-  -webkit-box-shadow: 0px 0px 20px 1px #e0dddd;
-  box-shadow: 0px 0px 20px 1px #e0dddd;
-  background-color: rgba(242, 232, 141, 0.2);
-  margin-bottom: 30px;
-  border-radius: 10px;
-  text-align: center;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  height: 280px;
-  width: 250px;
-}
+} */
 
 /* Our Services Area */
 .our-services-area {
@@ -1856,7 +1698,7 @@ Startup Agency CSS
 }
 
 /* Why Choose Us Area */
-.why-choose-area {
+/* .why-choose-area {
   background-color: #f8feff;
 }
 
@@ -1931,10 +1773,10 @@ Startup Agency CSS
 .why-choose-card h3 {
   font-size: 18px;
   margin: 0;
-}
+} */
 
 /* Awesome Area */
-.aweseome-area .aweseome-img {
+/* .aweseome-area .aweseome-img {
   position: relative;
   padding-bottom: 60px;
 }
@@ -2005,7 +1847,7 @@ Startup Agency CSS
   font-weight: 800;
   line-height: 0.6;
   color: #f7f7f7;
-}
+} */
 /* Case Study Area */
 .case-study-2 .caption {
   background-color: rgba(163, 56, 204, 0.8) !important;
@@ -2080,7 +1922,7 @@ Startup Agency CSS
 }
 
 /* My Intro */
-.my-intro {
+/* .my-intro {
   padding-bottom: 70px;
 }
 
@@ -2138,10 +1980,10 @@ Startup Agency CSS
 .my-intro .intro-btn .default-btn:hover {
   background-color: #242424;
   border: 1px solid #242424;
-}
+} */
 
 /* Choose Us two Area */
-.choose-area {
+/* .choose-area {
   background-color: #ffffff;
   z-index: 3;
 }
@@ -2184,246 +2026,16 @@ Startup Agency CSS
 .choose-area .choose-card i.bg-4 {
   background-color: #fae5ff;
   color: #b66ec7;
-}
+} */
 
 /*================================================
 App Landing CSS
 =================================================*/
 /* Navbar Area */
-.navbar {
-  background-color: white;
-}
-.main-navbar.app-nav {
-  border-bottom: 1px solid #edf0f4;
-}
 
-.main-navbar.app-nav.menu-shrink .nav-btn .bg-main {
-  border: 1px solid;
-}
-
-.main-navbar.app-nav .nav-btn .bg-main {
-  background-color: #ffffff;
-  color: #567df4;
-}
-
-.main-navbar.app-nav .nav-btn .bg-main:hover {
-  border-color: #242424;
-}
 
 /* App Landing Banner Area */
-.app-banner-area {
-  background-color: #b9b8b921;
-  position: relative;
-  margin-top: 65px;
-  padding-bottom: 150px;
-  z-index: 2;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 
-.app-banner-area .app-bennr-text {
-  /* color:#000000; */
-  position: relative;
-  z-index: 1;
-}
-
-/* .app-banner-area .container{
-  height:490px;
-} */
-
-.app-banner-area .app-bennr-text .app-btn {
-  margin-top: 40px;
-}
-
-.app-banner-area .btn {
-  background-color: #bababa;
-}
-.app-banner-area .btn_container {
-  display: flex;
-}
-.app-banner-area .app-bennr-text .app-btn .app-btn-1 {
-  background-color: #567df4;
-  border: 1px solid #567df4;
-  color: #ffffff;
-}
-
-.app-banner-area .app-bennr-text .app-btn .app-btn-1:hover {
-  background-color: #ffffff;
-  color: #567df4;
-}
-
-.app-banner-area .app-bennr-text .app-btn .app-btn-2 {
-  border: 1px solid #567df4;
-  color: #567df4;
-}
-
-.app-banner-area .app-bennr-text .app-btn .app-btn-2:hover {
-  background-color: #567df4;
-  color: #ffffff;
-}
-
-.app-banner-area .app-bennr-text span {
-  font-size: 18px;
-  color: #567df4;
-  font-weight: 500;
-  display: inline-block;
-  margin-bottom: 30px;
-}
-
-.app-banner-area .app-bennr-text h1 {
-  font-size: 68px;
-  margin-bottom: 40px;
-}
-
-.app-banner-area .app-bennr-text p {
-  color: #000000;
-  font-size: 20px;
-}
-
-.app-banner-area .app-bennr-text .mt-30 {
-  margin-top: 30px;
-}
-
-.app-banner-area .app-bennr-text .app-text {
-  padding-left: 130px;
-  position: relative;
-  margin-top: 30px;
-}
-
-.app-banner-area .app-bennr-text .app-text h3 {
-  font-size: 44px;
-  position: absolute;
-  left: 0;
-  padding-right: 10px;
-  border-right: 1px solid #c1bfcb;
-  color: #567df4;
-}
-
-.app-banner-area .app-bennr-text .app-text p {
-  font-size: 16px;
-  color: #242424;
-}
-
-.app-banner-area .app-bennr-text .app-shapes .shape-1 {
-  position: absolute;
-  bottom: 0;
-  left: -380px;
-  max-width: 350px;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-  animation: moveLeftBounce 3s linear infinite;
-  z-index: -1;
-}
-
-.app-banner-area .app-bennr-text .app-shapes .shape-30 {
-  position: absolute;
-  top: -30px;
-  left: -70px;
-  max-width: 150px;
-  opacity: 0.5;
-  z-index: -1;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-  animation: moveLeftBounce 3s linear infinite;
-}
-
-.app-banner-area .app-bennr-text .app-shapes .shape-28 {
-  position: absolute;
-  top: -50px;
-  right: 0;
-  -webkit-animation-name: rotateme;
-  animation-name: rotateme;
-  -webkit-animation-duration: 20s;
-  animation-duration: 20s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-}
-
-.app-banner-area .app-bennr-text .app-shapes .shape-16 {
-  position: absolute;
-  top: -30px;
-  left: -110px;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-  animation: animationFramesOne 20s infinite linear;
-}
-
-.app-banner-area .app-bennr-text .app-shapes .shape-11 {
-  position: absolute;
-  bottom: 10px;
-  left: -50px;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-  animation: animationFramesOne 20s infinite linear;
-}
-
-.app-banner-area .app-bennr-text .app-shapes .shape-14 {
-  position: absolute;
-  right: 0;
-  bottom: 120px;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-  animation: moveLeftBounce 3s linear infinite;
-}
-
-.app-banner-area .app-banner-img {
-  position: relative;
-  z-index: 1;
-}
-
-.app-banner-area .app-banner-img .app-shapes .shape-31 {
-  position: absolute;
-  bottom: 60px;
-  left: 10px;
-  z-index: -1;
-  max-width: 200px;
-  -webkit-animation-name: rotateme;
-  animation-name: rotateme;
-  -webkit-animation-duration: 20s;
-  animation-duration: 20s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-}
-
-.app-banner-area .app-banner-img .app-shapes .shape-22 {
-  position: absolute;
-  bottom: 430px;
-  right: -60px;
-  z-index: -1;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-  animation: moveLeftBounce 3s linear infinite;
-}
-
-.app-banner-area .app-banner-img .app-shapes .shape-2 {
-  position: absolute;
-  bottom: 50px;
-  right: 0;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-  animation: animationFramesOne 20s infinite linear;
-}
-
-.app-banner-area .app-banner-img .app-shapes .shape-4 {
-  position: absolute;
-  top: 180px;
-  right: -50px;
-  -webkit-animation: animationFramesOne 20s infinite linear;
-  animation: animationFramesOne 20s infinite linear;
-}
-
-.app-banner-area .app-banner-img .app-shapes .shape-5 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-  animation: moveLeftBounce 3s linear infinite;
-}
-
-.app-banner-area .bg-shape {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  max-width: 400px;
-}
 
 /* Service Shape Area */
 .service-shape {
@@ -2447,112 +2059,9 @@ App Landing CSS
 }
 
 /* Easy Step Area */
-.easy-step-area .easy-step-img {
-  position: relative;
-  z-index: 1;
-}
-
-.easy-step-area .easy-step-img .step-1 {
-  -webkit-box-shadow: 0px 0px 20px #dddddd;
-  box-shadow: 0px 0px 20px #dddddd;
-  border-radius: 70px;
-}
-
-.easy-step-area .easy-step-img .shape-1 {
-  position: absolute;
-  top: -50px;
-  left: -80px;
-  z-index: -1;
-  -webkit-animation: moveLeftBounce 3s linear infinite;
-  animation: moveLeftBounce 3s linear infinite;
-}
-
-.easy-step-area .easy-step-img .shape-21 {
-  position: absolute;
-  right: 60px;
-  bottom: -40px;
-  z-index: -1;
-  -webkit-animation-name: rotateme;
-  animation-name: rotateme;
-  -webkit-animation-duration: 20s;
-  animation-duration: 20s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-}
-
-.easy-step-area .easy-step-card {
-  position: relative;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #f2f1f3;
-  text-align: center;
-}
-
-.easy-step-area .easy-step-card:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: none;
-  text-align: center;
-}
-
-.easy-step-area .easy-step-card .step-signle-card {
-  text-align: center;
-  padding: 25px 20px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 0px 20px #dddddd;
-  box-shadow: 0px 0px 20px #dddddd;
-  border-radius: 10px;
-  position: relative;
-}
-
-.easy-step-area .easy-step-card .step-signle-card i {
-  color: #ffffff;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  font-size: 30px;
-  text-align: center;
-  border-radius: 5px;
-  margin-bottom: 15px;
-}
-
-.easy-step-area .easy-step-card .step-signle-card i.bg-1 {
-  background-color: #567df4;
-}
-
-.easy-step-area .easy-step-card .step-signle-card i.bg-2 {
-  background-color: #f6d665;
-}
-
-.easy-step-area .easy-step-card .step-signle-card i.bg-3 {
-  background-color: #fb9ed7;
-}
-
-.easy-step-area .easy-step-card .step-signle-card span {
-  position: absolute;
-  top: 0;
-  right: 10px;
-  font-size: 50px;
-  font-weight: 700;
-  color: #f4f4f5;
-  line-height: 1;
-  z-index: -1;
-}
-
-.easy-step-area .easy-step-card .step-signle-card h3 {
-  font-size: 18px;
-  margin-bottom: 0;
-  line-height: 1.4;
-}
-
-.easy-step-area .easy-step-card .step-signle-card.step-p {
-  padding: 25px 33px;
-}
 
 /* Powerful Area */
-.powerful-area {
+/* .powerful-area {
   background-color: #0f4c81;
   border-radius: 0px 0px 700px 0px;
 }
@@ -2612,10 +2121,10 @@ App Landing CSS
 
 .powerful-area .powerful-img {
   max-width: 400px;
-}
+} */
 
 /* Perfect Area */
-.perfect-area .perfect-img {
+/* .perfect-area .perfect-img {
   position: relative;
   z-index: 1;
 }
@@ -2676,10 +2185,10 @@ App Landing CSS
 
 .perfect-area .perfect-card h3 {
   font-size: 24px;
-}
+} */
 
 /* Clients Silder Two */
-.clients-slider-two-area {
+/* .clients-slider-two-area {
   position: relative;
 }
 
@@ -2758,7 +2267,7 @@ App Landing CSS
   bottom: 120px;
   right: 30px;
   z-index: -1;
-}
+} */
 
 /* Screens Slider Area */
 .screens-slider-area {
