@@ -2,7 +2,7 @@ import React from "react";
 
 function Subscribe() {
   return (
-    <div >
+    <div>
       <div
         style={{
           backgroundColor: "rgb(241, 241, 241)",
@@ -29,7 +29,11 @@ function Subscribe() {
           ></input>
           <button
             class="btn  ml-4 "
-            style={{ backgroundColor: "#333533", borderRadius: "7px", color:"white"}}
+            style={{
+              backgroundColor: "#333533",
+              borderRadius: "7px",
+              color: "white",
+            }}
           >
             Subscribe
           </button>
@@ -62,7 +66,11 @@ function Subscribe() {
         <div class=" sm-flex pb-4 text-center ">
           <button
             class="btn  ml-4 "
-            style={{ backgroundColor: "#333533", borderRadius: "5px", color:"white" }}
+            style={{
+              backgroundColor: "#333533",
+              borderRadius: "5px",
+              color: "white",
+            }}
           >
             Subscribe
           </button>

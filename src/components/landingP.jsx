@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/landingP.css";
 function landingP(){
     return(
         <div id="home" class="app-banner-area pt-100">
@@ -11,10 +11,10 @@ function landingP(){
                             <p>FeetWings is a smart wearable company that aims to provide a solution to diabetes and related complications at an affordable rate.</p>
 
                             <div class="app-shapes d-flex  " style={{gap:20,marginBottom:"20px"}}>
-                                <div>
+                                <div className="dwld-img">
                                 <img src="../assets/landing_img/apple.svg" class="app-img" alt="Landing" />
                                 </div>
-                                <div>
+                                <div className="dwld-img">
                                      <img src="../assets/landing_img/playstore.svg" class="app-img" alt="Landing" />
                                 </div>
                             </div>

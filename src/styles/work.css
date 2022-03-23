@@ -1,0 +1,38 @@
+
+.how-we-work {
+    background-color: #ffffff9e;
+  }
+  
+  .how-we-work-card {
+    padding: 40px 30px;
+    -webkit-box-shadow: 0px 0px 20px 1px #e0dddd;
+    box-shadow: 0px 0px 20px 1px #e0dddd;
+    background-color: rgba(214, 214, 214, 0.2);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 280px;
+    width: 250px;
+  }
+  
+  .how-we-work-card1 {
+    padding: 40px 30px;
+    -webkit-box-shadow: 0px 0px 20px 1px #e0dddd;
+    box-shadow: 0px 0px 20px 1px #e0dddd;
+    background-color: rgba(242, 232, 141, 0.2);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 280px;
+    width: 250px;
+  }
+  
+
+
+.step-1{
+    margin-bottom: 40px;
+}

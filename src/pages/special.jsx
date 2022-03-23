@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "../styles/special.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function special(){
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
     return (
-        <div id="special" class="easy-step-area ptb-100">
+        <div id="special" class="easy-step-area ptb-100" data-aos="slide-up" data-aos-offset="230">
             <div class="container">
                 <div class="section-title pb-4">
                     <h1>What Makes Us Special ?</h1>
